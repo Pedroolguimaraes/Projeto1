@@ -1,0 +1,7 @@
+com\pedro\projeto1\controller\ProdutoController.class
+com\pedro\projeto1\service\ProdutoService.class
+com\pedro\projeto1\controller\HomeController.class
+com\pedro\projeto1\Projeto1Application.class
+com\pedro\projeto1\security\WebSecurityConfig.class
+com\pedro\projeto1\repository\ProdutoRepository.class
+com\pedro\projeto1\model\Produto.class

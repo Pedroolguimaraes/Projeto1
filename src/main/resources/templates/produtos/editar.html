@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Editar Produto</title>
+</head>
+<body>
+<h2>Editar Produto</h2>
+<form th:action="@{/produtos/editar/{id}(id=${produto.id})}" th:object="${produto}" method="post">
+    <label>Nome: <input type="text" th:field="*{nome}"/></label><br/>
+    <label>Preço: <input type="number" step="0.01" th:field="*{preco}"/></label><br/>
+    <button type="submit">Salvar</button>
+</form>
+<a th:href="@{/produtos}">Voltar</a>
+</body>
+</html>
